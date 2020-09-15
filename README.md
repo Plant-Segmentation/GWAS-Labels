@@ -35,6 +35,11 @@ conda install scikit-image
 python process_labels.py -fp folder_path
 ```
 
+If you wish to exclude the colored labels. Use the command -
+```
+python process_labels.py -fp folder_path -save_color
+```
+
 The result folder 'labels/' will be created inside the main directory.
 
 - Label
